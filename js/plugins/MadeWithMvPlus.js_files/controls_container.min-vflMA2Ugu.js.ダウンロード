@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/react"],function(e,t,r,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=(function(e){function t(){return null!==e&&e.apply(this,arguments)||this}return r.__extends(t,e),t.prototype.render=function(){return n.createElement("div",{className:"react-title-bar__controls u-mar-right-xs"},this.props.children)},t})(n.Component);t.TitleBarControlsContainer=i});
+//# sourceMappingURL=controls_container.min.js-vflUo7kT7.map

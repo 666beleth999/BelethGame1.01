@@ -1,0 +1,2 @@
+define(["require","exports","external/react","modules/clean/react/title_bubble","modules/clean/react/file_activity_stream/utils","modules/core/i18n"],function(e,t,i,l,r,n){"use strict";function s(e){var t=e.user,s=e.isGuest,a=void 0!==s&&s,u=i.createElement("strong",null,r.userDisplayName(t));return a?i.createElement(l.TitleBubble,{content:n._("This person viewed via a link"),position:l.TitleBubble.POSITIONS.BOTTOM,isTargetPositionFixed:!0},u):u}Object.defineProperty(t,"__esModule",{value:!0}),t.DisplayName=s});
+//# sourceMappingURL=display_name.min.js-vflmV0F6O.map

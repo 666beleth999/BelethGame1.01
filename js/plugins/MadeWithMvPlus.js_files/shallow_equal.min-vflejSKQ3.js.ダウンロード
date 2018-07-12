@@ -1,0 +1,2 @@
+define(["require","exports"],function(e,t){"use strict";function r(e,t){return e===t?0!==e||0!==t||1/e===1/t:e!==e&&t!==t}function n(e,t){if(r(e,t))return!0;if("object"!=typeof e||null===e||"object"!=typeof t||null===t)return!1;var n=Object.keys(e),o=Object.keys(t);if(n.length!==o.length)return!1;for(var l=0;l<n.length;l++)if(!u.call(t,n[l])||!r(e[n[l]],t[n[l]]))return!1;return!0}Object.defineProperty(t,"__esModule",{value:!0});var u=Object.prototype.hasOwnProperty;t.shallowEqual=n});
+//# sourceMappingURL=shallow_equal.min.js-vflquYqxM.map

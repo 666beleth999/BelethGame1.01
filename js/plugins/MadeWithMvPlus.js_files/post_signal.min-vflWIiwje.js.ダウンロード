@@ -1,0 +1,2 @@
+define(["require","exports","react"],function(t,e,n){"use strict";function r(t){function e(){r.comment.post(i.draft.editorState)}var r=t.scopeTriggers,i=t.status,o=t.innerProps,s=o.signalComponent,a=""===i.draft.editorState.getCurrentContent().getPlainText().trim();return n.createElement(s,{signals:{post:e},isEmpty:a})}Object.defineProperty(e,"__esModule",{value:!0}),e.postSignal=r});
+//# sourceMappingURL=post_signal.min.js-vflQnO_yQ.map

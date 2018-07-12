@@ -1,0 +1,2 @@
+define(["require","exports","modules/constants/legacy"],function(e,t,I){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.FileActivityLogEventType=I.FILE_ACTIVITY_LOG_EVENT_TYPE,t.FileActivityLogClientOriginType=I.FILE_ACTIVITY_LOG_CLIENT_ORIGIN_TYPE;(function(e){e[e.MARKER=0]="MARKER",e[e.HIGHLIGHT=1]="HIGHLIGHT",e[e.REGION=2]="REGION"})(t.AnnotationTypes||(t.AnnotationTypes={})),t.AnnotationSubtypes={MARKER:{CIRCLE:0},REGION:{RECTANGLE:0},HIGHLIGHT:{HIGHLIGHT:0}}});
+//# sourceMappingURL=constants.min.js-vflioZV51.map

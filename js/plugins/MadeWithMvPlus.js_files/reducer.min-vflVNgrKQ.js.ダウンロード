@@ -1,0 +1,2 @@
+define(["require","exports","tslib"],function(e,i,r){"use strict";function t(e,t){switch(void 0===e&&(e=i.INITIAL_STATE),t.type){case"APP_SET_STATE":var n=t.hideComments,o=t.hidePageChrome;return r.__assign({},e,{hideComments:n,hidePageChrome:o})}return e}Object.defineProperty(i,"__esModule",{value:!0}),i.INITIAL_STATE={hideComments:!1,hidePageChrome:!1},i.reducer=t});
+//# sourceMappingURL=reducer.min.js-vflDrMjuA.map

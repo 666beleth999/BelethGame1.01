@@ -1,0 +1,2 @@
+define(["require","exports","tslib","modules/clean/react/file_sidebar/store/file_activity/sorted_set"],function(e,t,i,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=(function(e){function t(i){return void 0===i&&(i=[]),e.call(this,i,t.compare,t.equals)||this}return i.__extends(t,e),t.compare=function(e,t){return e.id===t.id?0:t.timestamp.getTime()-e.timestamp.getTime()},t.equals=function(e,t){return e.id===t.id},t})(r.SortedSet);t.ActivitySortedSet=n});
+//# sourceMappingURL=activity_sorted_set.min.js-vflEAgFRk.map

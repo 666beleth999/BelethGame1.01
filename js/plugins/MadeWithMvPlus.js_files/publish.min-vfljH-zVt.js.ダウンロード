@@ -1,0 +1,2 @@
+define(["require","exports"],function(e,n){"use strict";function t(e){function n(n){e(n.innerProps.value.content)}return{post:n}}function r(e){function n(n){e({isEmpty:!n.innerProps.value.getCurrentContent().getPlainText().length})}return{editorState:{change:n}}}function o(e){return{comment:{evts:t(e.onPost)},draft:{values:r(e.onContentChange)}}}Object.defineProperty(n,"__esModule",{value:!0}),n.publishReducers=o});
+//# sourceMappingURL=publish.min.js-vflNPSJIM.map

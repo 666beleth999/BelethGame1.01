@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/comments/store"],function(e,t,i){"use strict";function n(){var e=i.state;return{enabled:i.isCommentingEnabled(),canEnable:i.canEnableComments(),commentCount:e.activity&&e.activity.comment_activities&&e.activity.comment_activities.length||0,initialized:i.isStoreInitialized(),ready:i.isFileActivityReady(),unreadCommentCount:i.unreadCommentCount()}}Object.defineProperty(t,"__esModule",{value:!0}),t.getCommentingState=n});
+//# sourceMappingURL=comments_adapter.min.js-vfld7IrjE.map

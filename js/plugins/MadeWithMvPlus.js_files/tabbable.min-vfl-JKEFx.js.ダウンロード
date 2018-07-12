@@ -1,0 +1,2 @@
+define(["require","exports","jquery"],function(n,i,e){"use strict";return(function(){function n(){n.initialized||this.listen()}return n.prototype.listen=function(){n.initialized=!0,e(document).on("keydown",function(n){if(9===n.keyCode)return e(document.body).addClass("tabbing")}),e(document).on("mousedown",function(n){return e(document.body).removeClass("tabbing")})},n.initialize_module=function(){return new n},n.initialized=!1,n})()});
+//# sourceMappingURL=tabbable.min.js-vflUnXBWV.map

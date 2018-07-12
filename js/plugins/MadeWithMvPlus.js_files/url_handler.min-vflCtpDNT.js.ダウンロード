@@ -1,0 +1,2 @@
+define(["require","exports","modules/core/browser"],function(e,n,r){"use strict";function t(){return r.get_uri().getQuery().cak}function i(){var e=r.get_uri();e.removeQuery("cak"),window.history.replaceState(null,"",e.toString())}function o(e){var n=t();n&&(i(),e.revealCommentInPane({activityKey:n,expandConversation:!0}),e.revealAnnotationInPreview(n))}function u(){i()}function a(){i()}Object.defineProperty(n,"__esModule",{value:!0}),n.onPreviewAndCommentsReady=o,n.onFileViewerFlip=u,n.onFileViewerClose=a});
+//# sourceMappingURL=url_handler.min.js-vfljLuRB6.map

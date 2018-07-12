@@ -1,0 +1,2 @@
+define(["require","exports"],function(t,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0});var e=(function(){function t(t,r,e){void 0===t&&(t=[]),this.items=[],this.compare=r,this.equals=e,this.add(t)}return t.prototype.add=function(t){var r=this;Array.isArray(t)||(t=[t]);var e=this.items.concat(t);return e.sort(this.compare),this.items=e.filter(function(t,e,i){return 0===e||!r.equals(t,i[e-1])}),this},t.prototype.toArray=function(){return Array.prototype.slice.call(this.items)},t})();r.SortedSet=e});
+//# sourceMappingURL=sorted_set.min.js-vflZ5gW-J.map

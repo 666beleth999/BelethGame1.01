@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/file_store/utils"],function(e,i,r){"use strict";function n(e,i){return!e&&!i||!!e&&!!i&&r.areFilesEqual(e,i)}function t(e,i){return!e&&!i||!!e&&!!i&&e.id===i.id}function u(e,i){return!n(e.file,i.file)||!t(e.user,i.user)}Object.defineProperty(i,"__esModule",{value:!0}),i.isFileSame=n,i.isUserSame=t,i.isContextChanged=u});
+//# sourceMappingURL=helpers.min.js-vflOaRK9G.map

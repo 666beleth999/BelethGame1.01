@@ -1,0 +1,2 @@
+define(["require","exports"],function(t,e){"use strict";function n(){return function(t){var e=t.dispatch,n=t.getState;return function(t){return function(r){return"function"==typeof r?r(e,n):t(r)}}}}Object.defineProperty(e,"__esModule",{value:!0}),e.thunk=n});
+//# sourceMappingURL=thunk.min.js-vfl6O0z2b.map

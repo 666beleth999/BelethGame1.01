@@ -1,0 +1,2 @@
+define(["require","exports","react"],function(e,n,t){"use strict";function r(e){return t.createElement("span",{style:{background:"lightblue",display:"inline-block"}},e.children)}Object.defineProperty(n,"__esModule",{value:!0}),n.MentionDecorator=r});
+//# sourceMappingURL=mention_decorator.min.js-vflehETOX.map

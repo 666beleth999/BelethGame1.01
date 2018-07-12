@@ -1,0 +1,2 @@
+define(["require","exports","external/reflux","modules/clean/previews/preview_toolbar_actions"],function(e,t,i,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.PreviewToolbarStore=i.createStore({listenables:o.PreviewToolbarActions,init:function(){this.state=this.getInitialState()},getInitialState:function(){return{hideToolbar:!1}},onHideToolbar:function(){this.state.hideToolbar=!0,this.trigger(this.state)},onShowToolbar:function(){this.state.hideToolbar=!1,this.trigger(this.state)}})});
+//# sourceMappingURL=preview_toolbar_store.min.js-vflh3jROM.map

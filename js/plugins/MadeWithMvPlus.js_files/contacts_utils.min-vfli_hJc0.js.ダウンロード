@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/contacts/data_v2"],function(e,t,n){"use strict";function a(e){var t=function(t){var n=!!t.group_id,a=t.email===e.email;return!(n||a)};return{contactsManager:new n.ContactsDataSourceV2(e,function(e){return t(e)}),matches:{}}}Object.defineProperty(t,"__esModule",{value:!0}),t.getFreshMentionsData=a});
+//# sourceMappingURL=contacts_utils.min.js-vflmN_aed.map

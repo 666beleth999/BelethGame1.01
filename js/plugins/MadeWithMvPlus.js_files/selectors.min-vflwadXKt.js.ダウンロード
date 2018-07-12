@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/redux/types","modules/clean/redux/selectors"],function(e,t,n,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.getVideoAnnotationState=function(e){return o.getStateAtNamespace(e,n.VIDEO_ANNOTATION_NAMESPACE_KEY)},t.getComments=function(e){return t.getVideoAnnotationState(e).comments||[]},t.getHasOnboarded=function(e){return t.getVideoAnnotationState(e).hasOnboarded!==!1},t.getOwnersToNotify=function(e){return t.getVideoAnnotationState(e).ownersToNotify||[]}});
+//# sourceMappingURL=selectors.min.js-vflBQyqQl.map
