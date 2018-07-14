@@ -11,7 +11,7 @@ var $plugins =
 {"name":"TYA_EnemyHPGauge","status":true,"description":"敵ターゲットウィンドウにＨＰゲージを表示させます。\r\n特定の敵のゲージを非表示にすることもできます。","parameters":{}},
 {"name":"特定のアイテムと交換を行うショップ","status":true,"description":"メダルや貝殻など、特定のアイテムをお金の代わりに使えるショップを作成することができます","parameters":{"tradeShopSwitchId":"13","tradeItemId":"31","tradeItemTanni":"枚"}},
 {"name":"NumbState","status":true,"description":"一定確率で行動できないステート","parameters":{"NumbMsg":"は身体がしびれて動けない！"}},
-{"name":"ChangeWeaponOnBattle","status":true,"description":"戦闘コマンドに装備変更を追加","parameters":{"commandName":"装備変更"}},
+{"name":"ChangeWeaponOnBattle","status":false,"description":"戦闘コマンドに装備変更を追加","parameters":{"commandName":"装備変更"}},
 {"name":"YEP_EventChasePlayer","status":true,"description":"v1.02 プレイヤーが特定のイベントに近づくと、イベントがプレイヤーを追いかけたりプレイヤーから逃げます","parameters":{"Sight Lock":"300","See Player":"true","Alert Timer":"120","Alert Balloon":"1","Alert Sound":"Attack1","Alert Common Event":"0","Return After":"true","Return Wait":"180"}},
 {"name":"PTメンバー自動入れ替えプラグイン","status":true,"description":"戦闘不能アクター自動入れ替えさんPlus","parameters":{"■ 基本設定":"","Save sort order":"ON","Disable switch ID":"0","■ こだわり設定":"","Can replace leader":"ON","Wait: Dead":"15","Wait: Replace":"30"}},
 {"name":"OverpassTile","status":true,"description":"キャラクターが下をくぐり抜けられる橋の設定です。","parameters":{"Overpass Region ID":"255","Gateway Region ID":"254"}},
